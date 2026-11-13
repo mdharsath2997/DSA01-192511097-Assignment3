@@ -1,0 +1,18 @@
+EXPECTED COMPILE ERROR
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp: In function ‘int main()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:60: error: no matching function for call to ‘Book::Book()’
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |                                                            ^
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:22: note: candidate: ‘Book::Book(int)’
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |                      ^~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:22: note:   candidate expects 1 argument, 0 provided
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note: candidate: ‘constexpr Book::Book(const Book&)’
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |        ^~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note: candidate: ‘constexpr Book::Book(Book&&)’
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:53: warning: unused variable ‘shelf’ [-Wunused-variable]
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |                                                     ^~~~~

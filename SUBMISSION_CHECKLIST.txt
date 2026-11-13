@@ -1,0 +1,7 @@
+[ ] Run all safe programs locally.
+[ ] Inspect compiler diagnostics.
+[ ] Re-run AddressSanitizer.
+[ ] Capture genuine IDE/source/output screenshots.
+[ ] Insert actual GitHub URL in README and reports.
+[ ] Commit each task progressively.
+[ ] Submit GitHub link in Google Classroom and SIMATS.

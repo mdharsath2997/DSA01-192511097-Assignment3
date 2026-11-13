@@ -1,0 +1,3 @@
+10x20: 280 bytes including row pointers
+100x200: 20800 bytes including row pointers
+1000x2000: 2008000 bytes including row pointers

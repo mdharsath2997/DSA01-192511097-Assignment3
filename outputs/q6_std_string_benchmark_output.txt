@@ -1,0 +1,2 @@
+std::string length=100000 elapsed_us=367
+preallocated buffer length=100000 elapsed_us=78

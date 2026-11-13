@@ -1,0 +1,18 @@
+Compiled successfully
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp: In constructor ‘X::X()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:25: warning: ‘X::first’ will be initialized after [-Wreorder]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                         ^~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:14: warning:   ‘int X::second’ [-Wreorder]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |              ^~~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:31: warning:   when initialized here [-Wreorder]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                               ^
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:51: warning: member ‘X::first’ is used uninitialized [-Wuninitialized]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                                                   ^~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp: In constructor ‘X::X()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:51: warning: ‘*this.X::first’ is used uninitialized [-Wuninitialized]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                                                   ^~~~~

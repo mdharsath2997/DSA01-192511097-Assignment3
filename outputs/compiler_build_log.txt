@@ -1,0 +1,144 @@
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q1_book
+RETURN: 0
+STDERR:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp: In constructor ‘Reorder::Reorder()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp:6:31: warning: ‘Reorder::first’ will be initialized after [-Wreorder]
+    6 | struct Reorder{int second;int first;Reorder():first(10),second(first+1){}};
+      |                               ^~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp:6:20: warning:   ‘int Reorder::second’ [-Wreorder]
+    6 | struct Reorder{int second;int first;Reorder():first(10),second(first+1){}};
+      |                    ^~~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp:6:37: warning:   when initialized here [-Wreorder]
+    6 | struct Reorder{int second;int first;Reorder():first(10),second(first+1){}};
+      |                                     ^~~~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp:6:64: warning: member ‘Reorder::first’ is used uninitialized [-Wuninitialized]
+    6 | struct Reorder{int second;int first;Reorder():first(10),second(first+1){}};
+      |                                                                ^~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp: In constructor ‘Reorder::Reorder()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_book.cpp:6:64: warning: ‘*this.Reorder::first’ is used uninitialized [-Wuninitialized]
+    6 | struct Reorder{int second;int first;Reorder():first(10),second(first+1){}};
+      |                                                                ^~~~~
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task02/q2_prescription.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q2_prescription
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task03/q3_event.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q3_event
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task03/q3_logger.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q3_logger
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task04/q4_money.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q4_money
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task05/q5_time_playlist.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q5_playlist
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task05/q5_counter.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q5_counter
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task06/q6_text.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q6_text
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task07/q7_complex.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q7_complex
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -fsanitize=address -fno-omit-frame-pointer /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task02/q2_prescription.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q2_asan
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -fsanitize=address -fno-omit-frame-pointer /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task03/q3_event.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q3_asan
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -fsanitize=address -fno-omit-frame-pointer /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task06/q6_text.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q6_asan
+RETURN: 0
+STDERR:
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q1_no_default_compile_only
+RETURN: 1
+STDERR:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp: In function ‘int main()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:60: error: no matching function for call to ‘Book::Book()’
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |                                                            ^
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:22: note: candidate: ‘Book::Book(int)’
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |                      ^~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:22: note:   candidate expects 1 argument, 0 provided
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note: candidate: ‘constexpr Book::Book(const Book&)’
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |        ^~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note: candidate: ‘constexpr Book::Book(Book&&)’
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:8: note:   candidate expects 1 argument, 0 provided
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_no_default.cpp:1:53: warning: unused variable ‘shelf’ [-Wunused-variable]
+    1 | struct Book{explicit Book(int){} }; int main(){Book shelf[3];}
+      |                                                     ^~~~~
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q1_reorder_compile_only
+RETURN: 0
+STDERR:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp: In constructor ‘X::X()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:25: warning: ‘X::first’ will be initialized after [-Wreorder]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                         ^~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:14: warning:   ‘int X::second’ [-Wreorder]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |              ^~~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:31: warning:   when initialized here [-Wreorder]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                               ^
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:51: warning: member ‘X::first’ is used uninitialized [-Wuninitialized]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                                                   ^~~~~
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp: In constructor ‘X::X()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_reorder.cpp:1:51: warning: ‘*this.X::first’ is used uninitialized [-Wuninitialized]
+    1 | struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}
+      |                                                   ^~~~~
+
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_explicit_demo.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q1_explicit_demo
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_explicit_demo.cpp: In function ‘int main()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_explicit_demo.cpp:6:17: error: could not convert ‘(const char*)"implicit conversion accepted"’ from ‘const char*’ to ‘ImplicitLabel’
+    6 | int main(){show("implicit conversion accepted");ExplicitLabel x("direct initialization accepted");std::cout<<x.s<<'\n';}
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 const char*
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task02/q2_copy_timing.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q2_copy_timing
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task03/q3_memory_sizes.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q3_memory_sizes
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task04/q4_money_benchmark.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q4_money_benchmark
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -O2 /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task04/q4_money_benchmark.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q4_money_benchmark_O2
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -O0 /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task05/q5_increment_benchmark.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q5_increment_benchmark_O0
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -O2 /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task05/q5_increment_benchmark.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q5_increment_benchmark_O2
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task06/q6_std_string_benchmark.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q6_std_string_benchmark
+
+COMMAND: g++ -std=c++17 -Wall -Wextra -Wpedantic -O2 /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task06/q6_std_string_benchmark.cpp -o /mnt/data/DSA0120_Assignment3_Mohammed_Harsath/outputs/q6_std_string_benchmark_O2

@@ -1,0 +1,1 @@
+struct Book{explicit Book(int){} }; int main(){Book shelf[3];}

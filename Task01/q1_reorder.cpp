@@ -1,0 +1,1 @@
+struct X{int second;int first;X():first(1),second(first+1){}};int main(){X x;return x.second;}

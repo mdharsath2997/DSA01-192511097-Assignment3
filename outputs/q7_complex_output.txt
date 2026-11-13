@@ -1,0 +1,6 @@
+ZR=10 + j0
+ZL=0 + j3.14159
+ZC=0 - j3.1831
+Series=10 - j0.0415062 |Z|=10.0001
+Parallel R-L=0.898302 + j2.85938 |Z|=2.99717
+Caught: division by zero impedance

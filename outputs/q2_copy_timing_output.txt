@@ -1,0 +1,3 @@
+10 medicines: 0 us; copy size=10
+1000 medicines: 25 us; copy size=1000
+100000 medicines: 2395 us; copy size=100000

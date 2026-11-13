@@ -1,0 +1,2 @@
+#include <iostream>
+struct Money{long long paise;};Money add(Money a,Money b){return {a.paise+b.paise};}bool equals(Money a,Money b){return a.paise==b.paise;}int main(){auto c=add({12075},{7925});std::cout<<c.paise<<' '<<equals(c,{20000})<<'\n';}

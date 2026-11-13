@@ -1,0 +1,7 @@
+COMPILE ERROR
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_explicit_demo.cpp: In function ‘int main()’:
+/mnt/data/DSA0120_Assignment3_Mohammed_Harsath/Task01/q1_explicit_demo.cpp:6:17: error: could not convert ‘(const char*)"implicit conversion accepted"’ from ‘const char*’ to ‘ImplicitLabel’
+    6 | int main(){show("implicit conversion accepted");ExplicitLabel x("direct initialization accepted");std::cout<<x.s<<'\n';}
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 const char*

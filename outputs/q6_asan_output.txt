@@ -1,0 +1,2 @@
+Hello C++! copies=0
+[] 1

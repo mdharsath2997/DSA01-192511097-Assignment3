@@ -1,0 +1,4 @@
+#include <iostream>
+#include <iomanip>
+class Money{long long p;public:Money(long long r=0,int c=0):p(r*100+c){}static Money from(long long x){Money m;m.p=x;return m;}Money operator+(const Money&x)const{return from(p+x.p);}Money operator-(const Money&x)const{return from(p-x.p);}Money&operator+=(const Money&x){p+=x.p;return *this;}bool operator==(const Money&x)const{return p==x.p;}bool operator<(const Money&x)const{return p<x.p;}friend std::ostream&operator<<(std::ostream&o,const Money&m){bool n=m.p<0;unsigned long long a=n?-(m.p+1)+1:m.p;if(n)o<<'-';return o<<"Rs "<<a/100<<'.'<<std::setw(2)<<std::setfill('0')<<a%100<<std::setfill(' ');}};
+int main(){Money a(120,75),b(79,25),c=a+b;std::cout<<c<<'\n'<<std::boolalpha<<(c==Money(200))<<'\n';std::cout<<Money(0,75)+Money(0,50)<<'\n'<<Money(1)-Money(2)<<'\n';}

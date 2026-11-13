@@ -1,0 +1,1 @@
+These PNG files are generated terminal-style renderings of captured program stdout in this build environment. They are not screenshots of your own Windows IDE. Capture genuine source-code and execution screenshots on your computer before submission.

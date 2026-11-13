@@ -1,0 +1,10 @@
+Construct Stack
+Summary Stack: 1
+Destroy Stack
+Construct Heap
+Summary Heap: 1
+Destroy Heap
+Construct ZeroRows
+End main
+Summary ZeroRows: 0
+Destroy ZeroRows

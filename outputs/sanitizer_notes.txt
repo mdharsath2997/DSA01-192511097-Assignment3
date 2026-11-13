@@ -1,0 +1,1 @@
+Safe Rule-of-Three Prescription, Event seat map and Text programs were built/run with AddressSanitizer in this environment. See *_asan_output.txt. Unsafe shallow-copy example is intentionally omitted from execution because it can cause double deletion/undefined behaviour. Re-run sanitizers on your own system.
