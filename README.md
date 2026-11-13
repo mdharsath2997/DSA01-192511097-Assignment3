@@ -6,7 +6,7 @@ Course: DSA0120 – Object Oriented Programming with C++
 Faculty: Mary Agnes  
 Submission date: 13-11-2026  
 Repository: DSA01-192511097-Assignment3  
-GitHub URL: [Insert actual URL]
+GitHub URL: https://github.com/mdharsath2997/DSA01-192511097-Assignment3.git
 
 Compiler: g++ (Debian 14.2.0-19) 14.2.0
 Compile: `g++ -std=c++17 -Wall -Wextra -Wpedantic source.cpp -o program`
